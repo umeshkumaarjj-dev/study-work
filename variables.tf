@@ -182,6 +182,6 @@ variable "frontend_bucket_name" {
 }
 
 variable "app_bucket_name" {
-  description = "Globally unique S3 bucket name for application storage (private)"
+  description = "Globally unique S3 buckets name for application storage (private)"
   type        = string
 }
